@@ -13,6 +13,9 @@ def sample_function(e):
     ict = document.getElementById('ict').value
     pe = document.getElementById('pe').value
 
-    
+    average = [5, 5, 5, 3, 2, 1]
+    science, math, english, filipino, ict, pe = average
+    calculate = (science*5)+(math*5)+(english*5)+(filipino*3)+(ict*2)+(pe*1)/ (science+math+english+filipino+ict+pe)
+
 
     display(f'Name {fname}{lname} Science:{science} Math:{math} English:{english} Filipino:{filipino} ICT:{ict} PE:{pe}', target='output1')
