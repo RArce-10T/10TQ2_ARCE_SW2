@@ -19,3 +19,13 @@ def sample_function(e):
 
 
     display(f'Name {fname}{lname} Science:{science} Math:{math} English:{english} Filipino:{filipino} ICT:{ict} PE:{pe}', target='output1')
+
+
+def number_checker(e):
+  num1 = int(document.getElementById('input1').value)
+
+if num1 >75 :
+  display(f'You passed!', target='output')
+else:
+  display(f'You Failed..', target='output')
+
