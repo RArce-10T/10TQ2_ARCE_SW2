@@ -24,9 +24,10 @@ def sample_function(e):
 def number_checker(e):
   num1 = int(document.getElementById('input1').value)
 
-if num1 > 75 :
+if num1 > 74 :
   display(f'You passed!', target='output')
 else:
   display(f'You Failed..', target='output')
+
 
 
